@@ -5,7 +5,7 @@ import AnomalyDetectionDashboard from "./dashboard"
 
 export default function App() {
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
       <AnomalyDetectionDashboard />
     </ThemeProvider>
   )
